@@ -1,4 +1,6 @@
 site_name: MKDocs - InnerSource.
+repo_url: https://github.com/dclark-redhat/mkdocs-InnerSource
+
 theme: 
   name: material
   
