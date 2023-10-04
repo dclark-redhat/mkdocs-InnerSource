@@ -6,14 +6,17 @@ theme:
   logo: assets/logo.png
   font:
     text: Red Hat Display
+  favicon: assets/logo.png
 
   
   features:
     - navigation.tabs
+    - navigation.path
     - navigation.tabs.sticky
     - navigation.sections
     - toc.integrate
     - navigation.top
+    - navigation.expand
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -60,6 +63,8 @@ extra:
       link: https://twitter.com/redhat
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/clarkdean/
+
+  
   consent:
     title: Cookie consent
     description: >- 
