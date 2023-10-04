@@ -33,4 +33,4 @@ jobs:
 
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         
-        run: make d
+        run: make deploy
