@@ -29,8 +29,8 @@ jobs:
 
       - name: Install dependencies 🔧
         working-directory: docs
-        run: make install
+        run: make i
 
       - name: Build and deploy to GitHub Pages 🏗️ 🚀
         working-directory: docs
-        run: make deploy
+        run: make d
