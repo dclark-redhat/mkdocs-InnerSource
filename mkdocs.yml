@@ -3,11 +3,7 @@ repo_url: https://github.com/dclark-redhat/mkdocs-InnerSource
 
 theme: 
   name: material
-  
-
-     
-
- 
+  logo: assets/logo.png
   font:
     text: Red Hat Display
 
@@ -51,6 +47,9 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+plugins:
+  - mike
+  - tags
 
 
 
@@ -62,6 +61,8 @@ extra:
       link: https://twitter.com/redhat
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/clarkdean/
+
+    
 
 copyright: |
   &copy; 2023 <a href="https://github.com/dclark-redhat"  target="_blank" rel="noopener">Red Hat</a>
